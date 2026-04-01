@@ -1,0 +1,41 @@
+{
+  "name": "url4fun",
+  "version": "1.0.0",
+  "description": "A professional CLI URL shortener with platform-specific formats and IP tracking",
+  "main": "src/index.js",
+  "bin": {
+    "url4fun": "./bin/url4fun.js"
+  },
+  "scripts": {
+    "start": "node bin/url4fun.js",
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "url-shortener",
+    "cli",
+    "youtube",
+    "spotify",
+    "ip-tracking",
+    "url"
+  ],
+  "author": "pulkitrais",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "better-sqlite3": "^11.7.0",
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.5",
+    "commander": "^12.1.0",
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pulkitrais/url4fun.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pulkitrais/url4fun/issues"
+  },
+  "homepage": "https://github.com/pulkitrais/url4fun#readme"
+}
